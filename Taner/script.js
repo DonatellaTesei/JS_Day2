@@ -101,4 +101,16 @@ console.log(classes(3, 4, 5)[0]);
 console.log(classes(3, 4, 5)[1]);
 */
 
-// Challenge //
+// Advanced //
+/*
+function timeConvert() {
+    let input = prompt("Type in a value of Minutes");
+    let hours = input / 60;
+    let restHours = Math.floor(hours);
+    let minutes = (hours - restHours) * 60;
+    let restMinutes = Math.floor(minutes);
+    return `${input} minutes = ${restHours} hours and ${restMinutes} minutes`;
+
+}
+console.log(timeConvert());
+*/
